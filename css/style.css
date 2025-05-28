@@ -329,6 +329,7 @@ a {
   gap: 24px;
   width: 232px;
   height: 40px;
+  justify-content: center;
   margin: 0 auto;
 }
 
@@ -483,8 +484,11 @@ a {
 
 .footer-container {
   display: flex;
-  gap: 120px;
-  align-items: flex-start;
+  align-items: baseline;
+}
+
+.footer-content {
+  margin-right: 120px;
 }
 
 .footer-social-icon-body:hover,
